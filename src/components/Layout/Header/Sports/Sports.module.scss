@@ -1,0 +1,55 @@
+@import "../../../../scss/variable.scss";
+
+.sports {
+  .sports__wrapper {
+    display: flex;
+    gap: 48px;
+    .sports__left {
+      .left__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        margin-bottom: 10px;
+        img {
+          background: #f0f0f0;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          padding: 8px;
+        }
+        h4 {
+          color: $black;
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 17.9px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 15.51px;
+          color: $black;
+          opacity: 0.7;
+        }
+      }
+    }
+
+    .right__wrapper {
+      button {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background: none;
+        color: #6900ff;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 17.9px;
+      }
+    }
+  }
+}
+
+.popup {
+  width: 500px;
+  background-color: #fff;
+}

@@ -1,0 +1,19 @@
+.page__header {
+    min-width: 670px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+
+    button {
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}

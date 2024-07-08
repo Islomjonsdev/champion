@@ -1,0 +1,13 @@
+.container {
+    max-width: 1340px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    .layout {
+        display: flex;
+        justify-content: space-between;
+    }
+}
